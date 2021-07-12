@@ -1,0 +1,4 @@
+discord.py==1.7.3
+rasa==2.7.1
+rasa-sdk==2.7.0
+requests==2.25.1

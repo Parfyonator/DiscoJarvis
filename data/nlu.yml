@@ -1,0 +1,37 @@
+version: "2.0"
+
+nlu:
+- intent: time
+  examples: |
+    - What time is it in [Berlin]{"entity": "location"} at the moment?
+    - What time is it in [London]{"entity": "location"} now?
+    - How late is it in [Moscow]{"entity": "location"} now?
+    - What is current time in [Kyiv]{"entity": "location"}?
+    - What's the time in [Paris]{"entity": "location"}?
+    - Tell me the time in [Tokyo]{"entity": "location"}?
+    - Tell the time
+
+- intent: weather
+  examples: |
+    - What's the weather in [Berlin]{"entity": "location"} at the moment?
+    - What's the weather today?
+    - What's the weather in [London]{"entity": "location"} today?
+    - Show me what's the weather in [Paris]{"entity": "location"}
+    - I wonder what is the weather in [Vilnius]{"entity": "location"} right now?
+    - What is the weather?
+    - Tell me the weather
+    - Is the weather nice in [Barcelona]{"entity": "location"} today?
+    - I am going to [London]{"entity": "location"} today and I wonder what is the weather out there?
+    - I am planning my trip to [Amsterdam]{"entity": "location"}. What is the weather out there?
+    - Show me the weather in [Dublin]{"entity": "location"}, please.
+    - Tell me the weather in [Vilnius]{"entity": "location"}
+    - The weather condition in [Italy]{"entity": "location"}
+
+- intent: aqi
+  examples: |
+    - Tell aqi in [Rome]{"entity": "location"}
+    - What is air quality like in [Washington]{"entity": "location"}?
+    - How good is air in [Lisbon]{"entity": "location"}?
+    - Air qualiry index in [Madrid]{"entity": "location"}
+    - How bad is air in [Oslo]{"entity": "location"}?
+    - Air polution in [Shanhai]{"entity": "location"}
